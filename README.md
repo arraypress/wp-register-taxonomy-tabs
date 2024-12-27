@@ -22,7 +22,7 @@ A WordPress library for creating organized taxonomy navigation tabs in the admin
 Install via Composer:
 
 ```bash
-composer require arraypress/wp-taxonomy-tabs
+composer require arraypress/wp-register-taxonomy-tabs
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ composer require arraypress/wp-taxonomy-tabs
 ### Object-Oriented Approach
 
 ```php
-use ArrayPress\WP\Register\TaxonomyTabs;
+use ArrayPress\Register\TaxonomyTabs;
 
 // Basic setup
 $tabs = new TaxonomyTabs( 'post', [

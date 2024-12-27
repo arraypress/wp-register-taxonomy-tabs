@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ArrayPress\\WP\\Register\\": "src/"
+      "ArrayPress\\Register\\": "src/"
     },
     "files": [
       "src/Utilities.php"

@@ -11,7 +11,7 @@
 
 declare( strict_types=1 );
 
-namespace ArrayPress\WP\Register;
+namespace ArrayPress\Register;
 
 use InvalidArgumentException;
 
