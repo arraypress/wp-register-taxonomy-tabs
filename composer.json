@@ -1,0 +1,47 @@
+{
+  "name": "arraypress/wp-register-taxonomy-tabs",
+  "version": "1.0.0",
+  "description": "A flexible WordPress taxonomy tabs manager for custom post types with support for custom navigation",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/wp-register-taxonomy-tabs/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\WP\\Register\\": "src/"
+    },
+    "files": [
+      "src/Utilities.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/arraypress/wp-register-taxonomy-tabs/issues",
+    "source": "https://github.com/arraypress/wp-register-taxonomy-tabs"
+  },
+  "keywords": [
+    "wordpress",
+    "admin",
+    "taxonomy",
+    "tabs",
+    "post-types",
+    "navigation",
+    "wp-admin",
+    "admin-ui",
+    "management",
+    "interface"
+  ]
+}
