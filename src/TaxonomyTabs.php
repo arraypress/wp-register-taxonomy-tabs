@@ -11,11 +11,11 @@
 
 declare( strict_types=1 );
 
-namespace ArrayPress\Register;
-
-use InvalidArgumentException;
+namespace ArrayPress\WP\Register;
 
 // Exit if accessed directly
+use InvalidArgumentException;
+
 defined( 'ABSPATH' ) || exit;
 
 /**

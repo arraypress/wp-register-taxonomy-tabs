@@ -11,7 +11,7 @@
 
 declare( strict_types=1 );
 
-namespace ArrayPress\Register;
+namespace ArrayPress\WP\Register;
 
 // Exit if accessed directly
 defined( 'ABSPATH' ) || exit;

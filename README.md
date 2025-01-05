@@ -15,7 +15,7 @@ A WordPress library for creating organized taxonomy navigation tabs in the admin
 ## Requirements
 
 - PHP 7.4 or higher
-- WordPress 6.0 or higher
+- WordPress 6.7.1 or higher
 
 ## Installation
 
@@ -30,7 +30,7 @@ composer require arraypress/wp-register-taxonomy-tabs
 ### Object-Oriented Approach
 
 ```php
-use ArrayPress\Register\TaxonomyTabs;
+
 
 // Basic setup
 $tabs = new TaxonomyTabs( 'post', [

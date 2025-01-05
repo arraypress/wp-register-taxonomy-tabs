@@ -11,7 +11,7 @@
 
 declare( strict_types=1 );
 
-use ArrayPress\Register\TaxonomyTabs;
+use ArrayPress\WP\Register\TaxonomyTabs;
 
 if ( ! function_exists( 'register_taxonomy_tabs' ) ):
 	/**
